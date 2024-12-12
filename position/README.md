@@ -71,3 +71,14 @@ div {
     z-index: 10; /* Yuqori qavat */
 }
 ```
+
+- **top, right, bottom, left:** Elementning joylashuvini aniqlash uchun ishlatiladi.
+
+```css
+div {
+    position: absolute;
+    top: 20px; /* Element yuqoridan 20px masofada */
+    left: 50px; /* Element chapdan 50px masofada */
+}
+```
+
