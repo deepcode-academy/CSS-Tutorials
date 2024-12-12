@@ -50,3 +50,24 @@ div {
     right: 10px; /* Ekranning o'ng tomonidan 10px */
 }
 ```
+
+5. **sticky** (CSS3 qiymati)
+    - Element oddiy oqimda joylashadi, lekin berilgan joyga (scroll chegarasiga) yetganda ekranda "yopishib" turadi.
+    - **top**, **right**, **bottom**, yoki **left** bilan chegarani belgilashingiz kerak.
+
+```css
+div {
+    position: sticky;
+    top: 0; /* Element yuqoridan yopishib turadi */
+}
+```
+
+## Qo'shimcha xossalar
+- **z-index:** Elementlarning qavatini belgilaydi (bir-birining ustidan chiqish tartibi).
+
+```css
+div {
+    position: absolute;
+    z-index: 10; /* Yuqori qavat */
+}
+```
