@@ -50,3 +50,47 @@ Siz **float** ishlatganda, surilishi kerak bo'lgan elementlar keyingi kontent oq
     line-height: 1.6;
 }
 ```
+
+3. **clear:**
+
+Agar bir nechta elementlarni suradigan bo'lsangiz va keyingi elementlar surilganlardan keyin joylashishini xohlasangiz, **clear** xususiyatidan foydalaning.
+
+```html
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear misol</title>
+</head>
+<body>
+    <img src="https://via.placeholder.com/200" alt="Rasm" class="rasm">
+    <div class="matn">
+        <p>
+            Bu matn suzuvchi rasmning o'ng tomonida joylashadi. 
+        </p>
+    </div>
+    <div class="footer">
+        Bu footer, va u suzuvchi elementlardan keyin joylashadi.
+    </div>
+</body>
+</html>
+```
+
+```css
+.rasm {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+.matn {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.footer {
+    clear: both;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+```
