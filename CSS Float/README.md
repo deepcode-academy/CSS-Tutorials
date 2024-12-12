@@ -94,3 +94,4 @@ Agar bir nechta elementlarni suradigan bo'lsangiz va keyingi elementlar surilgan
     text-align: center;
 }
 ```
+
