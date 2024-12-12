@@ -104,3 +104,23 @@ div{
     border: 1px solid black;
 }
 ```
+
+2. **overflow-y:** Faqat vertikal overflow.
+
+**Qiymatlari:** `visible`, `hidden`, `scroll`, `auto`.
+
+```html
+<div>
+    Bu matn vertikal yo'nalishda skroll-bar qo'shadi, lekin gorizontal sig'maydi.
+</div>
+```
+
+```css
+div{
+     width: 200px; 
+    height: 100px; 
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    border: 1px solid black;
+}
+```
