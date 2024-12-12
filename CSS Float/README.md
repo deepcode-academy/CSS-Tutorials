@@ -11,3 +11,42 @@
   - **none:** Element surilmaydi (bu standart qiymat).
   - **inherit:** Element **float** qiymatini ota elementdan meros qilib oladi.
 
+2. `float` bilan ishlashning umumiy tartibi
+
+Siz **float** ishlatganda, surilishi kerak bo'lgan elementlar keyingi kontent oqimidan chiqadi, ya'ni ular boshqa elementlar ustiga chiqib ketishi yoki joylashuvga ta'sir qilishi mumkin.
+
+**Misol:** Matn va rasmni yonma-yon joylashtirish
+
+```html
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float misol</title>
+</head>
+<body>
+    <img src="https://via.placeholder.com/200" alt="Rasm" class="rasm">
+    <div class="matn">
+        <p>
+            Bu matn suzuvchi rasmning o'ng tomonida joylashadi. 
+            `float: left` xususiyati orqali rasm chap tomonga joylashadi, 
+            qolgan matn esa uning yonidan oqib keladi. Ushbu usul veb-dizaynda 
+            tez-tez ishlatiladi.
+        </p>
+    </div>
+</body>
+</html>
+```
+
+```css
+.rasm {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+}
+.matn {
+    font-size: 16px;
+    line-height: 1.6;
+}
+```
