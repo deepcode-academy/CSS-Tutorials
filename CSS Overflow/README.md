@@ -81,7 +81,7 @@ div{
 }
 ```
 
-## **overflow-x** and **overflow-y** Properties
+## `overflow-x` and `overflow-y` Properties
 
 Agar faqat **gorizontal** yoki **vertikal** yo'nalishda overflowni boshqarish kerak bo'lsa, quyidagi xossalar ishlatiladi:
 
