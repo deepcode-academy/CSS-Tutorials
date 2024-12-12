@@ -83,3 +83,24 @@ div{
 
 ## **overflow-x** and **overflow-y** Properties
 
+Agar faqat **gorizontal** yoki **vertikal** yo'nalishda overflowni boshqarish kerak bo'lsa, quyidagi xossalar ishlatiladi:
+
+1. **overflow-x:** Faqat gorizontal overflow.
+
+**Qiymatlari:** `visible`, `hidden`, `scroll`, `auto`.
+
+```html
+<div>
+    Bu matn gorizontal yo'nalishda skroll-bar qo'shadi, lekin vertikal sig'maydi.
+</div>
+```
+
+```css
+div{
+    width: 200px; 
+    height: 100px; 
+    overflow-x: scroll; 
+    overflow-y: hidden; 
+    border: 1px solid black;
+}
+```
