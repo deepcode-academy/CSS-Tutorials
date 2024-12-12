@@ -3,7 +3,7 @@
 > [!NOTE]
 > CSS position xossasi elementning hujjatdagi joylashuvini aniqlash uchun ishlatiladi. Ushbu xossa elementlarni HTML sahifada turli usullarda joylashtirishga yordam beradi.
 
-## position qiymatlari
+## Position qiymatlari
 
 1. **static** (default qiymat)
     - Element oddiy oqimda (normal flow) joylashadi.
