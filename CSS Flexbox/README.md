@@ -54,7 +54,7 @@ Flexbox ikkita asosiy komponentdan iborat:
 ```
 
 2. **justify-content**
-    - Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
+    - Elementlarni gorizontal yo'nalishda joylashtiradi.
       - **flex-start (default):** Chapga hizalanadi.
       - **flex-end:** Oʻngga hizalanadi.
       - **center:** Markazda hizalanadi.
@@ -82,8 +82,14 @@ Flexbox ikkita asosiy komponentdan iborat:
 
 ```css
 .container {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  align-items: center; /* Elementlar vertikal markazda */
+  align-items: stretch;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: baseline;
 }
 ```
 
