@@ -7,10 +7,48 @@
 
 Universal selektor (`*`) barcha elementlarga style beradi.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <p>This is an example of the universal selector.</p>
+</body>
+</html>
+```
 
 2. Element (Type) Selector
 
 Element selector ma’lum bir HTML tegiga style beradi.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  h1 {
+    color: blue;
+  }
+  p {
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+  <h1>This is a style for H1 tags.</h1>
+  <p>This is a style for P tags.</p>
+</body>
+</html>
+```
 
 3. Class Selector
 
