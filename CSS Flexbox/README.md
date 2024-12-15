@@ -52,7 +52,7 @@ Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatila
 }
 ```
 
-2. justify-content
+2. **justify-content**
 
 Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
 
@@ -61,3 +61,27 @@ Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
 - **center:** Markazda hizalanadi.
 - **space-between:** Elementlar orasida maksimal boʻshliq.
 - **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
+
+```css
+.container {
+  display: flex;
+  justify-content: center; /* Elementlar markazda */
+}
+```
+
+3. **align-items**
+
+Elementlarni vertikal yoʻnalishda joylashtiradi.
+
+- **stretch (default):** Boʻsh joyni toʻldiradi.
+- **flex-start:** Yuqoriga hizalanadi.
+- **flex-end:** Pastga hizalanadi.
+- **center:** Markazga hizalanadi.
+- **baseline:** Matnning pastki chizigʻiga mos hizalanadi.
+
+```css
+.container {
+  display: flex;
+  align-items: center; /* Elementlar vertikal markazda */
+}
+```
