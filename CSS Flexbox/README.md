@@ -57,7 +57,7 @@ Flexbox ikkita asosiy komponentdan iborat:
     - Elementlarni gorizontal yo'nalishda joylashtiradi.
       - **flex-start (default):** Chapga joylashtiradi.
       - **flex-end:** Oʻngga joylashtiradi.
-      - **center:** Markazda joylashtiradi.
+      - **center:** Markazga joylashtiradi.
       - **space-between:** Elementlar orasida maksimal boʻshliq.
       - **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
 
@@ -104,8 +104,15 @@ Flexbox ikkita asosiy komponentdan iborat:
 
 ```css
 .container {
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap; /* Qatorlarni ruxsat etamiz */
+  align-content: stretch;
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-between;
   align-content: space-around;
 }
 ```
