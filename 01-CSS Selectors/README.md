@@ -54,9 +54,47 @@ Element selector ma’lum bir HTML tegiga style beradi.
 
 Class selektori nuqta (`.`) bilan belgilanadi va bir yoki bir nechta elementga berilishi mumkin.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .red {
+    color: red;
+  }
+  .large {
+    font-size: 24px;
+  }
+</style>
+</head>
+<body>
+  <p class="red">This is red text.</p>
+  <p class="large">This is large text.</p>
+  <p class="red large">This is red and large text.</p>
+</body>
+</html>
+```
+
 4. ID Selector
 
 **ID** selektori `#` belgisi bilan chaqiriladi va yagona elementga style beradi.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #special {
+    background-color: yellow;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <p id="special">This is an example of the ID selector.</p>
+</body>
+</html>
+```
 
 5. Hierarchy Selectors
    - Child Selector
