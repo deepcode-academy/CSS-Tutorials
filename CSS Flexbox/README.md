@@ -26,3 +26,21 @@ Flexbox faqat flex containerda ishlaydi. Bu uchun konteynerga `display: flex;` x
   border: 1px solid #ccc;
 }
 ```
+
+## Basic Concepts
+
+Flexbox ikkita asosiy komponentdan iborat:
+
+1. Flex Container: Flexbox qoʻllaniladigan element (`display: flex;`).
+2. Flex Items: Konteyner ichidagi barcha bola elementlar.
+
+## Flexbox Properties
+
+1. **flex-direction**
+
+Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatiladi.
+
+- **row (default):** Elementlar chapdan oʻngga.
+- **row-reverse:** Elementlar oʻngdan chapga.
+- **column:** Elementlar yuqoridan pastga.
+- **column-reverse:** Elementlar pastdan yuqoriga.
