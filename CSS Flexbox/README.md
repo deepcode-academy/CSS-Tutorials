@@ -85,3 +85,22 @@ Elementlarni vertikal yoʻnalishda joylashtiradi.
   align-items: center; /* Elementlar vertikal markazda */
 }
 ```
+
+4. **align-content**
+
+Bir nechta qator boʻlsa, ularning orasidagi boʻsh joylarni boshqaradi.
+
+- **stretch (default):** Qatorlarni choʻzadi.
+- **flex-start:** Yuqoriga hizalanadi.
+- **flex-end:** Pastga hizalanadi.
+- **center:** Markazga hizalanadi.
+- **space-between:** Qatorlar orasida maksimal boʻshliq.
+- **space-around:** Qatorlar orasida va chekkalarda boʻshliq.
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Qatorlarni ruxsat etamiz */
+  align-content: space-around;
+}
+```
