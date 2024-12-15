@@ -162,7 +162,7 @@ Flexbox ikkita asosiy komponentdan iborat:
 ```
 
 4. **align-self**
-   - Individual element uchun vertikal hizalashni boshqaradi.
+   - Individual element uchun vertikal joylashishni boshqaradi.
 
 ```css
 .item {
