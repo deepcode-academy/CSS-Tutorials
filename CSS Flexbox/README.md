@@ -14,3 +14,15 @@ Flexbox faqat flex containerda ishlaydi. Bu uchun konteynerga `display: flex;` x
   <div class="item">3</div>
 </div>
 ```
+
+```css
+.container {
+  display: flex;
+}
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+```
