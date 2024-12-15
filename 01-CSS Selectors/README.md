@@ -99,13 +99,54 @@ Class selektori nuqta (`.`) bilan belgilanadi va bir yoki bir nechta elementga b
 5. Hierarchy Selectors
    - Child Selector
 
-
 Faqat bevosita ichki elementlarni tanlaydi.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  div > p {
+    color: green;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <p>This is a direct child selector.</p>
+    <div>
+      <p>This is a nested element. It will not be styled.</p>
+    </div>
+  </div>
+</body>
+</html>
+```
    
 
    - Descendant Selector
 
 Ichki barcha elementlarni tanlaydi.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  div p {
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <p>This styles all nested elements.</p>
+    <div>
+      <p>This is also selected by the descendant selector.</p>
+    </div>
+  </div>
+</body>
+</html>
+```
 
 6. Pseudo-classes
    - Hover
