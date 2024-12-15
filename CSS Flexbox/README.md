@@ -44,3 +44,11 @@ Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatila
 - **row-reverse:** Elementlar oʻngdan chapga.
 - **column:** Elementlar yuqoridan pastga.
 - **column-reverse:** Elementlar pastdan yuqoriga.
+
+```css
+.container {
+  display: flex;
+  flex-direction: row; /* yoki column */
+}
+```
+
