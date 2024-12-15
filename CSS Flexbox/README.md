@@ -121,7 +121,7 @@ Flexbox ikkita asosiy komponentdan iborat:
     - Elementlarni oʻz-oʻzidan qatorlarga boʻlish uchun ishlatiladi.
       - **nowrap (default):** Bitta qatorga joylashtiradi.
       - **wrap:** Elementlar containerga sig'masa, yangi qatorga oʻtadi.
-      - **wrap-reverse:** Qatorlar teskari tartibda.
+      - **wrap-reverse:** Sig'magan qismini teskari tartibda pastga tushiradi.
 
 ```css
 .container {
