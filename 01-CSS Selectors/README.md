@@ -153,9 +153,44 @@ Ichki barcha elementlarni tanlaydi.
 
 Element ustiga kursor qo‘yilganda style beradi.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  a:hover {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <a href="#">Hover over this link.</a>
+</body>
+</html>
+```
+
   - First-child
 
 Birinchi bola elementga style beradi.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  li:first-child {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <ul>
+    <li>This is the first item.</li>
+    <li>This is the second item.</li>
+  </ul>
+</body>
+</html>
+```
 
 7. Pseudo-elements
    - Before
