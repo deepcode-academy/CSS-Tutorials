@@ -54,9 +54,9 @@ selector {
     property: value;
 }
 ```
-- Selector – qaysi HTML elementga style qo‘llanilishini belgilaydi (masalan, p, h1, .class, #id).
-- Property – o‘zgartiriladigan xususiyatni bildiradi (masalan, color, font-size, margin).
-- Value – xususiyatga beriladigan qiymat (masalan, blue, 16px, 10px).
+- **Selector** – qaysi HTML elementga style berilishini belgilaydi (masalan, p, h1, .class, #id).
+- **Property** – o‘zgartiriladigan xususiyatni bildiradi (masalan, color, font-size, margin).
+- **Value** – xususiyatga beriladigan qiymat (masalan, blue, 16px, 10px).
 
 ```css
 h1 {
