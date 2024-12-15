@@ -44,3 +44,16 @@ p {
     font-size: 16px;
 }
 ```
+
+## CSS Syntax
+
+CSS sintaksisi quyidagi tarkibiy qismlardan iborat:
+
+```css
+selector {
+    property: value;
+}
+```
+- Selector – qaysi HTML elementga style qo‘llanilishini belgilaydi (masalan, p, h1, .class, #id).
+- Property – o‘zgartiriladigan xususiyatni bildiradi (masalan, color, font-size, margin).
+- Value – xususiyatga beriladigan qiymat (masalan, blue, 16px, 10px).
