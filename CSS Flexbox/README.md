@@ -96,3 +96,16 @@ Flexbox ikkita asosiy komponentdan iborat:
   align-content: space-around;
 }
 ```
+
+5. **flex-wrap**
+    - Elementlarni oʻz-oʻzidan qatorlarga boʻlish uchun ishlatiladi.
+      - **nowrap (default):** Bitta qatorga joylashtiradi.
+      - **wrap:** Elementlar containerga sig'masa, yangi qatorga oʻtadi.
+      - **wrap-reverse:** Qatorlar teskari tartibda.
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
