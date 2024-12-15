@@ -5,7 +5,7 @@
 
 ## Enabling Flexbox
 
-Flexbox faqat flex containerda ishlaydi. Bu uchun konteynerga `display: flex;` xususiyatini qoʻshamiz:
+Flexbox faqat **flex container**da ishlaydi. Bu uchun konteynerga `display: flex;` xususiyatini qoʻshamiz:
 
 ```html
 <div class="container">
@@ -32,7 +32,7 @@ Flexbox faqat flex containerda ishlaydi. Bu uchun konteynerga `display: flex;` x
 Flexbox ikkita asosiy komponentdan iborat:
 
 1. Flex Container: Flexbox qoʻllaniladigan element (`display: flex;`).
-2. Flex Items: Konteyner ichidagi barcha bola elementlar.
+2. Flex Items: Container ichidagi barcha **child** elementlar.
 
 ## Flexbox Properties
 
@@ -46,7 +46,10 @@ Flexbox ikkita asosiy komponentdan iborat:
 ```css
 .container {
   display: flex;
-  flex-direction: row; /* yoki column */
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
 }
 ```
 
