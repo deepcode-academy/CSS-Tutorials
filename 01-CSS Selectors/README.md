@@ -197,13 +197,78 @@ Birinchi bola elementga style beradi.
 
 Element oldiga content qo‘shadi.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  h1::before {
+    content: "🌟 ";
+  }
+</style>
+</head>
+<body>
+  <h1>Added a star!</h1>
+</body>
+</html>
+```
+
   - After
 
 Element oxiriga content qo‘shadi.
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  h1::after {
+    content: " ✔";
+  }
+</style>
+</head>
+<body>
+  <h1>Completed</h1>
+</body>
+</html>
+```
+
 8. Attribute Selectors
    - Specific Attribute
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  input[type="text"] {
+    border: 2px solid blue;
+  }
+</style>
+</head>
+<body>
+  <input type="text" placeholder="Enter text">
+  <input type="password" placeholder="Enter password">
+</body>
+</html>
+```
 
 
   - Attribute Starts With
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  a[href^="https"] {
+    color: green;
+  }
+</style>
+</head>
+<body>
+  <a href="https://example.com">HTTPS link</a>
+  <a href="http://example.com">HTTP link</a>
+</body>
+</html>
+```
