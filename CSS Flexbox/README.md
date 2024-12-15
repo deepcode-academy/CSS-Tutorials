@@ -37,13 +37,11 @@ Flexbox ikkita asosiy komponentdan iborat:
 ## Flexbox Properties
 
 1. **flex-direction**
-
-Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatiladi.
-
-- **row (default):** Elementlar chapdan oʻngga.
-- **row-reverse:** Elementlar oʻngdan chapga.
-- **column:** Elementlar yuqoridan pastga.
-- **column-reverse:** Elementlar pastdan yuqoriga.
+    - Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatiladi.
+      - **row (default):** Elementlar chapdan oʻngga.
+      - **row-reverse:** Elementlar oʻngdan chapga.
+      - **column:** Elementlar yuqoridan pastga.
+      - **column-reverse:** Elementlar pastdan yuqoriga.
 
 ```css
 .container {
@@ -53,14 +51,12 @@ Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatila
 ```
 
 2. **justify-content**
-
-Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
-
-- **flex-start (default):** Chapga hizalanadi.
-- **flex-end:** Oʻngga hizalanadi.
-- **center:** Markazda hizalanadi.
-- **space-between:** Elementlar orasida maksimal boʻshliq.
-- **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
+    - Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
+      - **flex-start (default):** Chapga hizalanadi.
+      - **flex-end:** Oʻngga hizalanadi.
+      - **center:** Markazda hizalanadi.
+      - **space-between:** Elementlar orasida maksimal boʻshliq.
+      - **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
 
 ```css
 .container {
@@ -70,14 +66,12 @@ Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
 ```
 
 3. **align-items**
-
-Elementlarni vertikal yoʻnalishda joylashtiradi.
-
-- **stretch (default):** Boʻsh joyni toʻldiradi.
-- **flex-start:** Yuqoriga hizalanadi.
-- **flex-end:** Pastga hizalanadi.
-- **center:** Markazga hizalanadi.
-- **baseline:** Matnning pastki chizigʻiga mos hizalanadi.
+    - Elementlarni vertikal yoʻnalishda joylashtiradi.
+      - **stretch (default):** Boʻsh joyni toʻldiradi.
+      - **flex-start:** Yuqoriga hizalanadi.
+      - **flex-end:** Pastga hizalanadi.
+      - **center:** Markazga hizalanadi.
+      - **baseline:** Matnning pastki chizigʻiga mos hizalanadi.
 
 ```css
 .container {
@@ -87,15 +81,13 @@ Elementlarni vertikal yoʻnalishda joylashtiradi.
 ```
 
 4. **align-content**
-
-Bir nechta qator boʻlsa, ularning orasidagi boʻsh joylarni boshqaradi.
-
-- **stretch (default):** Qatorlarni choʻzadi.
-- **flex-start:** Yuqoriga hizalanadi.
-- **flex-end:** Pastga hizalanadi.
-- **center:** Markazga hizalanadi.
-- **space-between:** Qatorlar orasida maksimal boʻshliq.
-- **space-around:** Qatorlar orasida va chekkalarda boʻshliq.
+    - Bir nechta qator boʻlsa, ularning orasidagi boʻsh joylarni boshqaradi.
+      - **stretch (default):** Qatorlarni choʻzadi.
+      - **flex-start:** Yuqoriga hizalanadi.
+      - **flex-end:** Pastga hizalanadi.
+      - **center:** Markazga hizalanadi.
+      - **space-between:** Qatorlar orasida maksimal boʻshliq.
+      - **space-around:** Qatorlar orasida va chekkalarda boʻshliq.
 
 ```css
 .container {
