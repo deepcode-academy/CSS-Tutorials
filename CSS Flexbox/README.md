@@ -109,3 +109,41 @@ Flexbox ikkita asosiy komponentdan iborat:
   flex-wrap: wrap;
 }
 ```
+
+## Properties for Flex Items
+
+1. **flex-grow**
+   - Elementning boʻsh joyni qancha egallashini aniqlaydi.
+
+```css
+.item {
+  flex-grow: 1; /* Har bir element teng joy oladi */
+}
+```
+
+2. **flex-shrink**
+   - Elementning kichrayish darajasini boshqaradi.
+
+```css
+.item {
+  flex-shrink: 1; /* Element kichrayishga ruxsat etiladi */
+}
+```
+
+3. **flex-basis**
+   - Elementning asosiy oʻlchamini belgilaydi.
+
+```css
+.item {
+  flex-basis: 100px; /* Har bir element kamida 100px kenglikda bo'ladi */
+}
+```
+
+4. **align-self**
+   - Individual element uchun vertikal hizalashni boshqaradi.
+
+```css
+.item {
+  align-self: center; /* Faqat bir element markazda */
+}
+```
