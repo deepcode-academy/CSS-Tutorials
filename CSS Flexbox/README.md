@@ -52,3 +52,12 @@ Elementlarni gorizontal yoki vertikal yoʻnalishda joylashtirish uchun ishlatila
 }
 ```
 
+2. justify-content
+
+Elementlar orasidagi gorizontal boʻshliqni boshqaradi.
+
+- **flex-start (default):** Chapga hizalanadi.
+- **flex-end:** Oʻngga hizalanadi.
+- **center:** Markazda hizalanadi.
+- **space-between:** Elementlar orasida maksimal boʻshliq.
+- **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
