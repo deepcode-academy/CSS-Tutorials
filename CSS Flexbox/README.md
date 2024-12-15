@@ -126,7 +126,9 @@ Flexbox ikkita asosiy komponentdan iborat:
 ```css
 .container {
   display: flex;
+  flex-wrap: nowrap;
   flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 ```
 
