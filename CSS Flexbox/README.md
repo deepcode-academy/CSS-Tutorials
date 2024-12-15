@@ -55,9 +55,9 @@ Flexbox ikkita asosiy komponentdan iborat:
 
 2. **justify-content**
     - Elementlarni gorizontal yo'nalishda joylashtiradi.
-      - **flex-start (default):** Chapga hizalanadi.
-      - **flex-end:** Oʻngga hizalanadi.
-      - **center:** Markazda hizalanadi.
+      - **flex-start (default):** Chapga joylashtiradi.
+      - **flex-end:** Oʻngga joylashtiradi.
+      - **center:** Markazda joylashtiradi.
       - **space-between:** Elementlar orasida maksimal boʻshliq.
       - **space-around:** Elementlar orasida va chekkalarda bir xil boʻshliq.
 
@@ -75,10 +75,10 @@ Flexbox ikkita asosiy komponentdan iborat:
 3. **align-items**
     - Elementlarni vertikal yoʻnalishda joylashtiradi.
       - **stretch (default):** Boʻsh joyni toʻldiradi.
-      - **flex-start:** Yuqoriga hizalanadi.
-      - **flex-end:** Pastga hizalanadi.
-      - **center:** Markazga hizalanadi.
-      - **baseline:** Matnning pastki chizigʻiga mos hizalanadi.
+      - **flex-start:** Yuqoriga joylashtiradi.
+      - **flex-end:** Pastga joylashtiradi.
+      - **center:** Markazga joylashtiradi.
+      - **baseline:** Matnning pastki chizigʻiga mos joylashtiradi.
 
 ```css
 .container {
@@ -96,9 +96,9 @@ Flexbox ikkita asosiy komponentdan iborat:
 4. **align-content**
     - Bir nechta qator boʻlsa, ularning orasidagi boʻsh joylarni boshqaradi.
       - **stretch (default):** Qatorlarni choʻzadi.
-      - **flex-start:** Yuqoriga hizalanadi.
-      - **flex-end:** Pastga hizalanadi.
-      - **center:** Markazga hizalanadi.
+      - **flex-start:** Yuqoriga joylashtiradi.
+      - **flex-end:** Pastga joylashtiradi.
+      - **center:** Markazga joylashtiradi.
       - **space-between:** Qatorlar orasida maksimal boʻshliq.
       - **space-around:** Qatorlar orasida va chekkalarda boʻshliq.
 
