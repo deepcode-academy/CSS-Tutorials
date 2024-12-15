@@ -64,7 +64,11 @@ Flexbox ikkita asosiy komponentdan iborat:
 ```css
 .container {
   display: flex;
-  justify-content: center; /* Elementlar markazda */
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 ```
 
