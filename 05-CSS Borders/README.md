@@ -3,5 +3,6 @@
 ## What is a Border?
 
 > [!NOTE]
-> `border` – elementning chetlariga chiziq o‘rnatadi.
+> `border` – elementning chegaralarini belgilaydi.
+
 
